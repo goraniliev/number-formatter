@@ -1,7 +1,25 @@
 {
-  "name": "application-name",
-  "version": "0.0.1",
+  "name": "@goraniliev/number-formatter",
+  "version": "0.0.2",
   "engines": {
     "node": ">=4.2.4"
-  }
+  },
+  "description": "my first npm lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goraniliev/number-formatter.git"
+  },
+  "keywords": [
+    "firstnpm"
+  ],
+  "author": "Goran <goraniliev93@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/goraniliev/number-formatter/issues"
+  },
+  "homepage": "https://github.com/goraniliev/number-formatter#readme"
 }

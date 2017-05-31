@@ -10,9 +10,13 @@
  * @param {string} locale
  * @return {string}
  */
-module.exports = function(number, locale) {
-    return number.toLocaleString(locale);
+module.exports = {
+    formatter: function(number, locale) {
+        return number.toLocaleString(locale);
+    },
+    hello: function(name) {
+        return "Hello " + name;
+    }
 };
 
-console.log(module.exports(1123.45, "US"));
 
